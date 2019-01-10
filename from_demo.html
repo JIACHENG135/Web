@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+
+    <label for="First Name" >First Name:</label>
+    <input type="text" name="First Name" placeholder="John" required>
+    <label for="Last Name" >Last Name:</label>
+    <input type="text" name="Last Name" placeholder="Smith" required>
+    <p></p>
+    <label for="male">Male</label>
+    <input id = "male" type="radio" name="gender" value = "MALE">
+    
+    <label for="female">Female</label>
+    <input id = "female" type="radio" name="gender" value = "FEMALE">
+
+    <label for="other">Other</label>
+    <input id = "other" type="radio" name="gender" value = "OTHER">
+
+
+    <p></p>
+    <label for="email">Email:</label>
+    <input type="Email" id="email" required placeholder="xxxx@xxx.xxx">
+
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" minlength = "5" maxlength = "10" required placeholder="********">
+
+    <p></p>
+    <label for="birthday"> Birthday:</label>
+    <select name = "Month">
+        <option value="month">Month</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+    </select>
+    <select name = "Day">
+        <option value="day">day</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="04">04</option>
+    </select>
+    <p></p>
+    <label name = "check">I agree to the conditions and terms</label>
+    <input type="checkbox" id="check" value = "agree" checked= "false">
+    <button>Submit</button>
+</form>
+</body>
+</html>
